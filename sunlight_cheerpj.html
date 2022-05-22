@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Sunlight</title>
-    <script src="https://cjrt.leaningtech.com/2.3/loader.js"></script>
+    <script src="https://cjrtnc.leaningtech.com/2.3/loader.js"></script>
   </head>
   <body>
+  <script>cheerpjInit();</script>
+  <center>
   <H2>Sunlight</H2>
-  <p>
-    <script>
-        cheerpjInit();
-        cheerpjCreateDisplay(500,650);
-        cheerpjRunJar("/app/Sunlight.jar");
-    </script>
+  <cheerpj-applet archive="Sunlight.jar"
+            code="Sunlight"
+            width=500 height=650>
+  </cheerpj-applet>
+  </center>
   </body>
 </html>
